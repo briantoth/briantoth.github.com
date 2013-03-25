@@ -4,7 +4,7 @@ title: Welcome
 ---
 {% include JB/setup %}
 
-At present everything is as default as possible, except for the comments.  I removed those.
+Not much to say just now.
 
     
 ## Posts
