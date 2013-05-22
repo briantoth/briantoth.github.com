@@ -81,7 +81,7 @@
     };
 
     var push= function(){
-        Pouch.replicate('idb://pouch_intro', 'http://localhost:9292/localhost:5984/pouch_intro', function(err,resp){
+        Pouch.replicate('idb://pouch_intro', 'https://sardonic.iriscouch.com:6984/test_db', function(err,resp){
             if(err){
                 alert("Push failed!")
             }
@@ -92,12 +92,11 @@
         var filter= function(doc){
             return doc.pullAble;
         }
-        Pouch.replicate('http://localhost:9292/localhost:5984/pouch_intro', 'idb://pouch_intro',
-                        {filter : filter},
+        Pouch.replicate('https://sardonic.iriscouch.com:6984/test_db', 'idb://pouch_intro',
                         function(err,resp){
-            if(err){
-                alert("Pull failed!")
-            }
-        })
+                            if(err){
+                                alert("Pull failed!")
+                            }
+                        })
     };
 })();

@@ -336,9 +336,9 @@ On the command line open the directory that contains `index.html` and run this:
 
     python2 -m SimpleHTTPServer 8888
 
-You can now access your page on [port 8888](http://localhost:8888).  Right
-now this is no different than simply opening the page in a web browser, but
-once we add other features the distinction will become important.
+You can now access your page on [port 8888](http://localhost:8888).  For most applications
+this is no different than simply opening the page in a web browser, but it is generally
+preferred to use an actual server because this more closely mimics the web environment.
 
 ##What's next?
 

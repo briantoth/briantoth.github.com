@@ -3,7 +3,7 @@ layout: post
 title: "PouchDB Replication"
 description: ""
 category: Tutorial
-tags: [PouchDB, intermediate]
+tags: [PouchDB, intermediate, replication]
 ---
 {% include JB/setup %}
 
@@ -25,7 +25,7 @@ keeping your data separate is more than worth the hassle. Unfortunately, many pa
 an antiquated version of CouchDB (Ubuntu especially).  Unless your package manager has CouchDB 1.2.0+,
 I recommend using [build-couchdb](https://github.com/iriscouch/build-couchdb) to get a local CouchDB server.
 
-Go ahead and run your serve once you get it set up.
+Go ahead and run your server once you get it set up.
 
 At this point it is probably a good idea to get an idea of how to work with CouchDB if you aren't already familiar
 with it.  I found [moonmaster9000's introduction](https://github.com/moonmaster9000/intro_to_couchdb) to be very helpful.
