@@ -71,7 +71,7 @@ a local one (the delays will be slightly longer of course).  That's pretty cool.
 
 You probably don't want any origin to be able to access your database.  Let's change that.
 
-    curl -v -H "Content-Type:application/json" -X PUT https://sardonic.iriscouch.com:6984/_config/cors/origins -d '"http://localhost:8888"'
+    curl -v -H "Content-Type:application/json" -X PUT https://<your couch>.iriscouch.com:6984/_config/cors/origins -d '"http://localhost:8888"'
 
 Now only requests from port 8888 on a local host will be accepted.  Recall that you can use
 `python2 -m SimpleHTTPServer 8888` in the directory containing `index.html` in order to set up a
