@@ -71,7 +71,7 @@ JB :
   archive_path: /archive.html
   categories_path : /categories.html
   tags_path : /tags.html
-  atom_path : /atom.xml
+  atom_path : /feed.xml
   rss_path : /rss.xml
 
   # Settings for comments helper
@@ -97,7 +97,7 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : google 
+    provider : google
     google : 
         tracking_id : 'UA-41285637-1'
     getclicky :
