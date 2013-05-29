@@ -1,29 +1,7 @@
 <html>
 <head>
 <script type="text/javascript">
-var forwardLinks = []
-console.log("hi")
-{% for post in site.posts %}	
-    {% if post.oldurl %}
-        forwardLinks.push({ "old":"{{post.oldurl}}", "new":"{{post.url}}" })
-console.log("{{post.oldurl}}");
-{% endif %}
-{% endfor %}
-jQuery(function($)
-       {
-           //get the current pathname
-           var currentPath = window.location.pathname
-
-           //compare to the list
-           for(var key in forwardLinks){
-               var link = forwardLinks[key]
-               if(link.old == currentPath){
-                   //set the redirect
-                   setTimeout("window.location.replace('"+link.new+"')", 5000)
-                   return
-               }
-           }
-       })
+window.location = "http://brianblogs.github.io";
 </script>
 </head>
 </html>
