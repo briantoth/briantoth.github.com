@@ -2,8 +2,9 @@
 layout: post
 title: "PouchDB Introduction"
 description: ""
-category: Tutorial
+category: tutorial
 tags: [PouchDB, beginner]
+oldurl: /Tutorial/2013/03/19/pouchdb-introduction/
 tagline: from the beginning
 ---
 {% include JB/setup %}
