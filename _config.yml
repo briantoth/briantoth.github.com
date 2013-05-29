@@ -26,8 +26,6 @@ author :
 #
 production_url : http://briantoth.github.io
 
-paginate : 1
-
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
