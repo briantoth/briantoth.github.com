@@ -2,7 +2,8 @@
 layout: post
 title: "PouchDB Replication"
 description: ""
-category: Tutorial
+category: tutorial
+oldurl: /Tutorial/2013/04/07/pouchdb-replication/
 tags: [PouchDB, intermediate, replication]
 ---
 {% include JB/setup %}
