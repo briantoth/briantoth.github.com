@@ -26,6 +26,8 @@ author :
 #
 production_url : http://briantoth.github.io
 
+paginate : 1
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
@@ -71,7 +73,7 @@ JB :
   archive_path: /archive.html
   categories_path : /categories.html
   tags_path : /tags.html
-  atom_path : /feed.xml
+  atom_path : /atom.xml
   rss_path : /rss.xml
 
   # Settings for comments helper
@@ -112,6 +114,7 @@ JB :
   #
   sharing :
     provider : false
+
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:

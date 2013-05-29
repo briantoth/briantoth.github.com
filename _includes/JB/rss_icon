@@ -1,0 +1,7 @@
+<p>
+<a href="{{ HOME_PATH }}rss.xml" rel="alternate" type="application/rss+xml">
+<img src="assets/images/feed-icon-28x28.png" alt="" style="vertical-align:middle;border:0"/>
+</a>
+&nbsp;
+<a href="{{ HOME_PATH }}rss.xml" rel="alternate" type="application/rss+xml">Subscribe in a reader</a>
+</p>

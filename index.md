@@ -4,9 +4,8 @@ title: Welcome
 ---
 {% include JB/setup %}
 
-Not much to say just now.
+{% include JB/rss_icon %}
 
-    
 ## Posts
 
 <ul class="posts">
