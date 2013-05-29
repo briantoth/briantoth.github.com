@@ -4,7 +4,7 @@ title: "PouchDB Introduction"
 description: ""
 category: tutorial
 tags: [PouchDB, beginner]
-oldurl: /Tutorial/2013/03/19/pouchdb-introduction/
+permalink: /Tutorial/2013/03/19/pouchdb-introduction/
 tagline: from the beginning
 ---
 {% include JB/setup %}

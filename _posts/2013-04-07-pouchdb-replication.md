@@ -3,7 +3,7 @@ layout: post
 title: "PouchDB Replication"
 description: ""
 category: tutorial
-oldurl: /Tutorial/2013/04/07/pouchdb-replication/
+permalink: /Tutorial/2013/04/07/pouchdb-replication/
 tags: [PouchDB, intermediate, replication]
 ---
 {% include JB/setup %}
